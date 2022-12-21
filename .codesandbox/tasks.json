@@ -1,0 +1,48 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "buildDev": {
+      "name": "buildDev",
+      "command": "npm run buildDev",
+      "runAtStart": false
+    },
+    "lighthouse": {
+      "name": "lighthouse",
+      "command": "npm run lighthouse",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "npm run test",
+      "runAtStart": false
+    },
+    "stylelint": {
+      "name": "stylelint",
+      "command": "npm run stylelint",
+      "runAtStart": false
+    },
+    "stylelint:fix": {
+      "name": "stylelint:fix",
+      "command": "npm run stylelint:fix",
+      "runAtStart": false
+    },
+    "npm install @bigcommerce/stencil-utils": {
+      "name": "npm install @bigcommerce/stencil-utils",
+      "command": "npm install @bigcommerce/stencil-utils",
+      "runAtStart": true
+    }
+  }
+}
