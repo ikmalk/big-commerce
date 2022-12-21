@@ -43,6 +43,26 @@
       "name": "npm install @bigcommerce/stencil-utils",
       "command": "npm install @bigcommerce/stencil-utils",
       "runAtStart": true
+    },
+    "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash": {
+      "name": "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash",
+      "command": "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | bash"
+    },
+    "stencil start": {
+      "name": "stencil start",
+      "command": "stencil start"
+    },
+    "nvm use 14.20.0": {
+      "name": "nvm use 14.20.0",
+      "command": "nvm use 14.20.0"
+    },
+    "npm install -g @bigcommerce/stencil-cli": {
+      "name": "npm install -g @bigcommerce/stencil-cli",
+      "command": "npm install -g @bigcommerce/stencil-cli"
+    },
+    "nvm install 14.20.0": {
+      "name": "nvm install 14.20.0",
+      "command": "nvm install 14.20.0"
     }
   }
 }
